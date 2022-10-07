@@ -1,0 +1,27 @@
+.services__item {
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.icons {
+    font-size: 2rem;
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 400 !important;
+}
+
+.services__item h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.services__item p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}

@@ -1,0 +1,103 @@
+.header {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: black;
+}
+
+.nav__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__wrapper h1 {
+    font-family: 'New Rocker', cursive;
+    letter-spacing: 0.1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: gold;
+}
+
+.logo__img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: gold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+
+.nav__item a {
+    font-weight: 500;
+    cursor: pointer;
+    color: gold;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 1.2rem;
+}
+
+.fav__icon {
+    font-size: 1.3rem;
+    color: gold;
+    cursor: pointer;
+    position: relative;
+}
+
+.cart__icon {
+    font-size: 1.3rem;
+    color: gold;
+    cursor: pointer;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: 60%;
+    right: 0%;
+    width: 15px;
+    height: 15px;
+    background: goldenrod;
+    content: '';
+    color: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    z-index: 10;    
+}
+
+.user-image {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+
+}
+
+.mobile__menu {
+    font-size: 1.3rem;
+    color: gold;
+    display: none;
+}
+
+.nav__active {
+    font-weight: 700 !important;
+}
