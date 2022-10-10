@@ -1,14 +1,15 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 
-const ProducsList = () => {
+const ProducsList = ({data}) => {
   return (
-    <div>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-    </div>
+    <>
+    {
+      data.map(item => (
+        <ProductCard item={item} />
+      ))
+    }
+    </>
   )
 }
 

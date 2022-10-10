@@ -383,7 +383,7 @@ const products = [
 
     {
         id: "18",
-        productName: "Solar Power Vinyl",
+        productName: "Solar Power ",
         imgUrl: productImg18,
         catergory: "Vinyls",
         price: 99,
@@ -404,7 +404,7 @@ const products = [
 
     {
         id: "19",
-        productName: "Dire Straits - Brothers in Arms Vinyl",
+        productName: "Dire Straits - Brothers in Arms ",
         imgUrl: productImg19,
         catergory: "Vinyls",
         price: 89,
@@ -425,7 +425,7 @@ const products = [
 
     {
         id: "20",
-        productName: "Sex Pistols - The Original Recordings Vinyl",
+        productName: "Sex Pistols - The Original Recordings ",
         imgUrl: productImg20,
         catergory: "Vinyls",
         price: 99,
@@ -446,7 +446,7 @@ const products = [
 
     {
         id: "21",
-        productName: "Dr. Dre - 2001 Vinyl",
+        productName: "Dr. Dre - 2001 ",
         imgUrl: productImg21,
         catergory: "Vinyls",
         price: 129,
@@ -466,29 +466,8 @@ const products = [
     },
 
     {
-        id: "22",
-        productName: "The Who - My Genaration Vinyl",
-        imgUrl: productImg22,
-        catergory: "Vinyls",
-        price: 79,
-        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-        reviews: [
-            {
-              rating: 4.6,
-              text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            },
-            {
-              rating: 4.9,
-              text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            },
-          ],
-          avgRating: 4.9,
-    },
-
-    {
         id: "23",
-        productName: "Jay-Z - The Blueprint Vinyl",
+        productName: "Jay-Z - The Blueprint ",
         imgUrl: productImg23,
         catergory: "Vinyls",
         price: 109,
@@ -509,7 +488,7 @@ const products = [
 
     {
         id: "24",
-        productName: "The Beatles - Sgt Pepper's Lonely Hearts Club Band Vinyl",
+        productName: "The Beatles - Sgt Pepper's Lonely Hearts Club Band ",
         imgUrl: productImg24,
         catergory: "Vinyls",
         price: 119,
@@ -530,7 +509,7 @@ const products = [
 
     {
         id: "25",
-        productName: "Rolling Stones - Tattoo You Vinyl",
+        productName: "Rolling Stones - Tattoo You ",
         imgUrl: productImg25,
         catergory: "Vinyls",
         price: 129,
@@ -551,7 +530,7 @@ const products = [
 
     {
         id: "26",
-        productName: "Bob Marley and The Wailers - The Capitols Session '73 Vinyl",
+        productName: "Bob Marley and The Wailers - The Capitols Session '73 ",
         imgUrl: productImg26,
         catergory: "Vinyls",
         price: 139,

@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import products from '../assets/data/products';
 
 import '../styles/Home.css';
 import Helmet from '../components/Helmet/Helmet';
@@ -14,7 +15,17 @@ import ProducsList from '../components/UI/ProducsList';
 
 const Home = () => {
 
+  const [data, setData] = useState(products);
   const year = new Date().getFullYear();
+
+  useEffect(()=> {
+    const filteredProducts = products.filter(
+      (item) => item.catergory === 'Vinyls'
+      );
+
+      setData(filteredProducts)
+  }, []);
+
   return (
     <Helmet title={'Home'}>
       <section className="hero__section">
@@ -45,9 +56,9 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg='12' className='text-center'>
-              <h2 className='section__title'>Trending Products</h2>
+              <h2 className='section__title mb-5'>Trending Products</h2>
             </Col>
-            <ProducsList />
+            <ProducsList data={data} />
           </Row>
         </Container>
       </section>
