@@ -10,6 +10,7 @@ import { Container, Row, Col } from 'reactstrap';
 import heroImg from '../assets/images/hero-img.png'
 
 import Services from '../services/Services';
+import ProducsList from '../components/UI/ProducsList';
 
 const Home = () => {
 
@@ -40,6 +41,16 @@ const Home = () => {
         </Container>
       </section>
       <Services />
+      <section className="tranding__products">
+        <Container>
+          <Row>
+            <Col lg='12' className='text-center'>
+              <h2 className='section__title'>Trending Products</h2>
+            </Col>
+            <ProducsList />
+          </Row>
+        </Container>
+      </section>
     </Helmet>
   );
 };
