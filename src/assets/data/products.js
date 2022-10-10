@@ -150,26 +150,6 @@ const products = [
           avgRating: 4.9,
     },
 
-    {
-        id: "07",
-        productName: "KISS Shirt",
-        imgUrl: productImg07,
-        catergory: "Shirts",
-        price: 39,
-        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-        reviews: [
-            {
-              rating: 4.6,
-              text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            },
-            {
-              rating: 4.9,
-              text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            },
-          ],
-          avgRating: 4.9,
-    },
 
     {
         id: "08",
@@ -213,26 +193,6 @@ const products = [
           avgRating: 4.6,
     },
 
-    {
-        id: "10",
-        productName: "Foo Fighters Shirt",
-        imgUrl: productImg10,
-        catergory: "Shirts",
-        price: 39,
-        shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
-        reviews: [
-            {
-              rating: 4.6,
-              text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            },
-            {
-              rating: 4.4,
-              text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            },
-          ],
-          avgRating: 4.5,
-    },
 
     {
         id: "11",

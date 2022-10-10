@@ -5,7 +5,7 @@ const ProducsList = ({data}) => {
   return (
     <>
     {
-      data.map(item => (
+      data?.map(item => (
         <ProductCard item={item} />
       ))
     }

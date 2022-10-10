@@ -4,7 +4,7 @@
 
 .product__info h4 {
     font-size: 1.1rem;
-    color: var(--primary-color);
+    color: black;
     font-weight: 600;
 }
 
@@ -20,13 +20,13 @@
     font-size: 1.3rem;
     font-weight: 500;
     background: transparent;
-    color: var(--primary-color);
+    color: black;
 }
 
 .product__card-bottom span {
     font-size: 1.2rem;
     padding: 5px;
-    background: var(--primary-color);
+    background: black;
     color: white;
     border-radius: 50%;
 }
