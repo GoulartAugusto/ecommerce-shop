@@ -17,6 +17,7 @@ import productImg15 from '../images/victrola-01.jpg';
 import productImg16 from '../images/victrola-02.jpg';
 import productImg17 from '../images/victrola-03.jpg';
 
+
 import productImg18 from '../images/vinil-01.jpg';
 import productImg19 from '../images/vinil-02.jpg';
 import productImg20 from '../images/vinil-03.jpg';
@@ -26,6 +27,22 @@ import productImg23 from '../images/vinil-06.jpg';
 import productImg24 from '../images/vinil-07.jpg';
 import productImg25 from '../images/vinil-08.jpg';
 import productImg26 from '../images/vinil-09.jpg';
+
+import productImg27 from '../images/poster-01.jpg';
+import productImg28 from '../images/poster-02.jpg';
+import productImg29 from '../images/poster-03.jpg';
+import productImg30 from '../images/poster-04.jpg';
+import productImg31 from '../images/poster-05.jpg';
+import productImg32 from '../images/poster-06.jpg';
+
+import productImg33 from '../images/speaker-01.jpg';
+import productImg34 from '../images/speaker-02.jpg';
+import productImg36 from '../images/speaker-04.jpg';
+
+import productImg37 from '../images/victrola-04.jpg';
+
+
+
 
 const products = [
     {
@@ -508,6 +525,198 @@ const products = [
           ],
           avgRating: 4.9,
     },
+
+    {
+      id: "27",
+      productName: "AC/DC 80's Tour Poster",
+      imgUrl: productImg27,
+      catergory: "Posters",
+      price: 69,
+      shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      reviews: [
+          {
+            rating: 4.6,
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          },
+          {
+            rating: 4.9,
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          },
+        ],
+        avgRating: 4.9,
+  },
+
+  {
+    id: "28",
+    productName: "Guns n' Roses Album Poster",
+    imgUrl: productImg28,
+    catergory: "Posters",
+    price: 69,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  {
+    id: "29",
+    productName: "Pink Floyd 1973 Tour Poster",
+    imgUrl: productImg29,
+    catergory: "Posters",
+    price: 69,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  {
+    id: "30",
+    productName: "Jimi Hendrix Art Poster",
+    imgUrl: productImg30,
+    catergory: "Posters",
+    price: 69,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  {
+    id: "31",
+    productName: "Pink Floyd 1970 Tour Poster",
+    imgUrl: productImg31,
+    catergory: "Posters",
+    price: 69,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  {
+    id: "32",
+    productName: "Sublime Album Poster",
+    imgUrl: productImg32,
+    catergory: "Posters",
+    price: 69,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  {
+    id: "33",
+    productName: "Old school Speakers",
+    imgUrl: productImg33,
+    catergory: "Speakers",
+    price: 129,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  {
+    id: "34",
+    productName: "Wireless Vintage Speaker",
+    imgUrl: productImg34,
+    catergory: "Speakers",
+    price: 169,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+  
+  {
+    id: "37",
+    productName: "Jumbo Wireless Speaker",
+    imgUrl: productImg37,
+    catergory: "Victrolas",
+    price: 149,
+    shortDesc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+        {
+          rating: 4.6,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+        {
+          rating: 4.9,
+          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        },
+      ],
+      avgRating: 4.9,
+  },
+
+
 ];
 
 export default products;

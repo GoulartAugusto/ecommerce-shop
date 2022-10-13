@@ -7,25 +7,25 @@ const serviceData = [
       icon: <FiTruck />,
       title: "Free Shipping",
       subtitle: "Lorem ipsum dolor sit amet.",
-      bg: "#000",
+      bg: "rgba(0, 0, 0, 0.473)",
     },
     {
       icon: <RiRefreshLine />,
       title: "Easy Returns",
       subtitle: "Lorem ipsum dolor sit amet.",
-      bg: "#00013d",
+      bg: "rgba(0, 0, 0, 0.473)",
     },
     {
       icon: <RiSecurePaymentLine />,
       title: "Secure Payment",
       subtitle: "Lorem ipsum dolor sit amet.",
-      bg: "#003d03",
+      bg: "rgba(0, 0, 0, 0.473)",
     },
     {
       icon: <RiExchangeDollarFill />,
       title: " Back Guarantee",
       subtitle: "Lorem ipsum dolor sit amet.",
-      bg: "#1ab200",
+      bg: "rgba(0, 0, 0, 0.473)",
     },
   ];
   

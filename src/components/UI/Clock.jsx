@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import '../../styles/Clock.css';
 
 // This is a usefull reusable Timer that can be implemented
 // in alot of projects

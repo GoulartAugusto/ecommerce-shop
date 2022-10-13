@@ -30,3 +30,9 @@
     color: white;
     border-radius: 50%;
 }
+
+@media only screen and (max-width: 992px) {
+    .product__info h3 a {
+        font-size: 1.1rem;
+    }
+}
