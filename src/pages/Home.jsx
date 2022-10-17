@@ -11,7 +11,7 @@ import { Container, Row, Col } from 'reactstrap';
 import heroImg from '../assets/images/hero-img.png';
 
 import Services from '../services/Services';
-import ProducsList from '../components/UI/ProducsList';
+import ProductsList from '../components/UI/ProductsList';
 
 import Clock from '../components/UI/Clock';
 
@@ -30,23 +30,23 @@ const Home = () => {
 
   useEffect(()=> {
     const filteredTrendingsProducts = products.filter(
-      (item) => item.catergory === 'Vinyls'
+      (item) => item.category === 'Vinyls'
       );
 
       const filteredBestSalesProducts = products.filter(
-        (item) => item.catergory === 'Shirts'
+        (item) => item.category === 'Shirts'
         );
 
       const filteredNewProducts = products.filter(
-        (item) => item.catergory === 'Posters'
+        (item) => item.category === 'Posters'
         );
 
       const filteredSoundProducts = products.filter(
-        (item) => item.catergory === 'Speakers'
+        (item) => item.category === 'Speakers'
         );
 
       const filteredPopularProducts = products.filter(
-        (item) => item.catergory === 'Victrolas'
+        (item) => item.category === 'Victrolas'
         );
 
       setTrendingProducts(filteredTrendingsProducts);
@@ -88,7 +88,7 @@ const Home = () => {
             <Col lg='12' className='text-center'>
               <h2 className='section__title mb-5'>Trending Products</h2>
             </Col>
-            <ProducsList data={trendingProducts} />
+            <ProductsList data={trendingProducts} />
           </Row>
         </Container>
       </section>
@@ -99,7 +99,7 @@ const Home = () => {
             <Col lg='12' className='text-center'>
               <h2 className='section__title mb-5'>Best Sales</h2>
             </Col>
-            <ProducsList data={bestSalesProducts} />
+            <ProductsList data={bestSalesProducts} />
           </Row>
         </Container>
       </section>
@@ -129,8 +129,8 @@ const Home = () => {
             <Col lg='12' className='text-center md-5'>
               <h2 className='section__title mb-5'>New Arrivals</h2>
             </Col>
-            <ProducsList data={newProducts} />
-            <ProducsList data={soundProducts} />
+            <ProductsList data={newProducts} />
+            <ProductsList data={soundProducts} />
           </Row>
         </Container>
       </section>
@@ -141,7 +141,7 @@ const Home = () => {
             <Col lg='12' className='text-center md-5'>
               <h2 className='section__title mb-5'>Popular in Category</h2>
             </Col>
-            <ProducsList data={populartProducts} />
+            <ProductsList data={populartProducts} />
           </Row>
         </Container>
       </section>

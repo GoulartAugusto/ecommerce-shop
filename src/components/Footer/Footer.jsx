@@ -70,7 +70,7 @@ const Footer = () => {
                 <ListGroup className='footer__contact mb-3'>
                   <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                     <span><BiMap /></span>
-                    <p>123 Campanhas, Florianópolis, SC, Brazil</p>
+                    <p>213 Izidoro Januario, Florianópolis, SC, Brazil</p>
                   </ListGroupItem>
                   <ListGroupItem className='ps-0 border-0 d-flex align-items-center gap-2'>
                     <span><BsTelephone /></span>

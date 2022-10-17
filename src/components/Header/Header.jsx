@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Header.css';
 
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 import { motion } from 'framer-motion';
 
@@ -11,6 +11,7 @@ import { AiOutlineHeart, AiOutlineMenu } from 'react-icons/ai';
 import userIcon from "../../assets/images/user-icon.png";
 
 import { Container, Row } from 'reactstrap';
+import { useSelector } from 'react-redux';
 
 const nav__links = [
   {
@@ -30,8 +31,10 @@ const nav__links = [
 const Header = () => {
   
   const headerRef = useRef(null);
+  const totalQuantity = useSelector((state) => state.cart.totalQuantity);
 
   const menuRef = useRef(null);
+  const navigate = useNavigate();
   
   const stickyHeaderFunction = () => {
     window.addEventListener('scroll', () => {
@@ -53,6 +56,10 @@ const Header = () => {
   });
 
   const menuToggle = () => menuRef.current.classList.toggle('active__menu')
+
+  const navigateToCart = () => {
+    navigate('/cart');
+  }
 
   return (
     <header className='header' ref={headerRef}>
@@ -88,9 +95,9 @@ const Header = () => {
                   <AiOutlineHeart />
                   <span className="badge">1</span>
                 </span>
-                <span className="cart__icon">
+                <span className="cart__icon" onClick={navigateToCart}>
                   <BiShoppingBag />
-                  <span className="badge">1</span>
+                  <span className="badge">{totalQuantity}</span>
                 </span>
                 <span>
                   <motion.img whileTap={{ scale: 1.2 }} src={userIcon} alt="user" className="user-image" />
