@@ -76,20 +76,22 @@ const Tr = ({ item }) => {
   const deleteProduct = () => {
     dispatch(cartActions.deleteItem(item.id))
   }
-  return <tr>
-  <td><img src={item.imgUrl} alt='' /></td>
-  <td>{item.productName}</td>
-  <td>$ {item.price}</td>
-  <td>{item.quantity}px</td>
-  <td>
-    <motion.span
-      whileTap={{scale: 1.3}}
-      onClick={deleteProduct}
-    >
-      <RiDeleteBinLine />
-    </motion.span>
-  </td>
-</tr>
+  return (
+    <tr>
+      <td><img src={item.imgUrl} alt='' /></td>
+      <td>{item.productName}</td>
+      <td>$ {item.price}</td>
+      <td>{item.quantity}px</td>
+      <td>
+        <motion.span
+          whileTap={{scale: 1.3}}
+          onClick={deleteProduct}
+        >
+          <RiDeleteBinLine />
+        </motion.span>
+      </td>
+    </tr>
+  )
 }
 
 export default Cart

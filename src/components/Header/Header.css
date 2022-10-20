@@ -53,6 +53,38 @@
     column-gap: 1.2rem;
 }
 
+.nav__icons .profile img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.nav__icons .profile {
+    position: relative;
+    z-index: 9;
+}
+
+.nav__icons .profile .profile__actions {
+    position: absolute;
+    top: 98%;
+    left: -250%;
+    width: 150px;
+    z-index: 10;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: var(--card-bg-01);
+    line-height: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+#actions { 
+    display: none;
+}
+
 .fav__icon {
     font-size: 1.3rem;
     color: gold;
@@ -89,7 +121,6 @@
     height: 30px;
     width: 30px;
     cursor: pointer;
-
 }
 
 .mobile__menu {
