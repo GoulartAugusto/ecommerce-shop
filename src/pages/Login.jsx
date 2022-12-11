@@ -43,7 +43,7 @@ const Login = () => {
         {
           loading ? (
 
-            <Col lg='12' className='text-center'><h5 className='fw-bold '>Loadding ...</h5></Col>
+            <Col lg='12' className='text-center'><h5 className='fw-bold '>Loading ...</h5></Col>
             
           ) : (
 

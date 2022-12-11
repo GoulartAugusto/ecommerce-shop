@@ -360,7 +360,7 @@ const products = [
 
     {
         id: "18",
-        productName: "Solar Power ",
+        productName: "Solar Power",
         imgUrl: productImg18,
         category: "Vinyls",
         price: 99,
