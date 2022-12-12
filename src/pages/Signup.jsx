@@ -78,6 +78,7 @@ const Signup = () => {
   return (
     <Helmet title='Signup'>
       <Row className='mb-4'>
+        
         {
           loading ? (
           
@@ -109,11 +110,9 @@ const Signup = () => {
             <p>Already have an account? <Link to='/login'>Login</Link></p>
           </Form>
         </Col>
-        
           )
-
         }
-        
+            
       </Row>
     </Helmet>
   )

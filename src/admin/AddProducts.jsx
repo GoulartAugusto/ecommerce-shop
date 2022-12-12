@@ -50,7 +50,7 @@ const AddProducts = () => {
       }, () =>  {
         getDownloadURL(uploadTask.snapshot.ref).then(async (downloadURL) => {
           await addDoc(docRef, {
-            title: enterTitle,
+            productName: enterTitle,
             shortDesc: enterShortDesc,
             description: enterDescription,
             category: enterCategory,
@@ -107,7 +107,8 @@ const AddProducts = () => {
 
                   <FormGroup className="form__group w-50">
                     <span>Category</span>
-                      <select className='w-100 p-2' value={enterCategory} onChange={e => setEnterCategory(e.target.value)} required >
+                      <select className='w-100 p-2' value={enterCategory} onChange={(e) => setEnterCategory(e.target.value)} required >
+                        <option>Select Category</option>
                         <option value="Vinyls">Vinyls</option>
                         <option value="Shirts">Shirts</option>
                         <option value="Posters">Posters</option>
